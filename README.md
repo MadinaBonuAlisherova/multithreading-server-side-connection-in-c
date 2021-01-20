@@ -25,6 +25,11 @@
 >  `-` Client-side 
   <hr> 
  <br>
+ ```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 ### Connection of <em> server </em> and <em> client </em> 
 <br>
   <img src ="images/img1.png">
