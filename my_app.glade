@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="pixbuf">images/fill.png</property>
+  </object>
+  <object class="GtkWindow" id="services1">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="services1_fixed_area">
+        <property name="width_request">1360</property>
+        <property name="height_request">700</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton" id="back_to_menu_service1">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_back_to_menu_service1_clicked" swapped="no"/>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="pixbuf">images/back_to_menu.png</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="fill_form_button_service1">
+            <property name="label" translatable="yes">   FILL THE FORM   </property>
+            <property name="width_request">100</property>
+            <property name="height_request">41</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="image">image2</property>
+            <property name="image_position">right</property>
+            <property name="always_show_image">True</property>
+            <signal name="clicked" handler="on_fill_form_button_service1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">560</property>
+            <property name="y">539</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/AndijanRegion/AndijanRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">140</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/BukharaRegion/BukharaRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">260</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/FerganaRegion/FerganaRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">480</property>
+            <property name="y">140</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/JizzakhRegion/JizzakhRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/NamanganRegion/NamanganRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">920</property>
+            <property name="y">140</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/NavoiyRegion/NavoiyRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">1140</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/QashqadaryoRegion/QashqadaryoRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">40</property>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/SurxondaryoRegion/SurxondaryoRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">700</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/SamarqandRegion/SamarqandRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">260</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/SirdaryoRegion/SirdaryoRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">480</property>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/TashkentCity/TashkentCity4.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">920</property>
+            <property name="y">330</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">190</property>
+            <property name="height_request">125</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">images/Media/XorazmRegion/XorazmRegion.jpeg</property>
+          </object>
+          <packing>
+            <property name="x">1140</property>
+            <property name="y">300</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Andijan</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">87</property>
+            <property name="y">103</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="welcome_text1">
+            <property name="width_request">1360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">7</property>
+            <property name="label" translatable="yes">Here You can see regions of UZBEKISTAN</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 20"/>
+              <attribute name="foreground" value="#757550507b7b"/>
+            </attributes>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">104</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Bukhara</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">309</property>
+            <property name="y">79</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Fergana</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">531</property>
+            <property name="y">99</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">31</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Jizzakh</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">749</property>
+            <property name="y">84</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">133</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Namangan</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">953</property>
+            <property name="y">76</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Navoiy</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">1191</property>
+            <property name="y">59</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">164</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Qashqadaryo</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">56</property>
+            <property name="y">271</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">137</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Samarqand</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">291</property>
+            <property name="y">241</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Sirdaryo</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">528</property>
+            <property name="y">271</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">158</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Surxondaryo</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">717</property>
+            <property name="y">241</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">112</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Tashkent</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">964</property>
+            <property name="y">267</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">110</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Khorazm</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 10"/>
+              <attribute name="scale" value="2"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">1182</property>
+            <property name="y">238</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="list_of_genders">
+    <columns>
+      <!-- column-name gchararray1 -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0">Male</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Female</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkListStore" id="liststore1">
+    <columns>
+      <!-- column-name regions -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Andijan</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bukhara</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Fergana</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Jizzakh</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Namangan</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Navoiy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Qashqadaryo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Samarqand</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sirdaryo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Surxondaryo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tashkent</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Khorazm</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkWindow" id="fill_form">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="fill_form_area_fixed">
+        <property name="width_request">1360</property>
+        <property name="height_request">700</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="margin_top">7</property>
+        <child>
+          <object class="GtkLabel" id="fill_form_text">
+            <property name="width_request">1360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">7</property>
+            <property name="label" translatable="yes">Please fill the form</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 20"/>
+              <attribute name="foreground" value="#34346565a4a4"/>
+            </attributes>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="full_name_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">end</property>
+            <property name="label" translatable="yes">1. Full name</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="full_name">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="max_length">32</property>
+            <property name="placeholder_text" translatable="yes">Name Surname</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">75</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="citizenship_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">2. Citizenship</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">110</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="citizenship">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="max_length">32</property>
+            <property name="placeholder_text" translatable="yes">Uzbekistan</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">135</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="back_to_menu2">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="tooltip_text" translatable="yes">Back to menu</property>
+            <signal name="clicked" handler="on_back_to_menu2_clicked" swapped="no"/>
+            <child>
+              <object class="GtkImage" id="bac">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="pixbuf">images/back_to_menu.png</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="date_birth_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">3. Date of Birth</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="date_birth">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="tooltip_text" translatable="yes">Example: 17/12/1995</property>
+            <property name="placeholder_text" translatable="yes">dd/month/year</property>
+            <property name="input_purpose">number</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">195</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="submit_button">
+            <property name="label" translatable="yes">Submit</property>
+            <property name="width_request">200</property>
+            <property name="height_request">41</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="image_position">top</property>
+            <signal name="clicked" handler="on_submit_button_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">315</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkComboBox" id="gender_selector">
+            <property name="width_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="model">list_of_genders</property>
+            <property name="has_entry">True</property>
+            <property name="entry_text_column">0</property>
+            <signal name="changed" handler="on_gender_selector_changed" swapped="no"/>
+            <child internal-child="entry">
+              <object class="GtkEntry" id="gender_selector_options">
+                <property name="can_focus">False</property>
+                <property name="text" translatable="yes">Please select gender</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">255</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="gender_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">4. Gender</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">230</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="passport_number_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">5. Passport number</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">290</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="passport_number">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">AA1234567</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">315</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="date_of_issue_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">6. Date of issue</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">350</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="date_of_issue">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">dd/month/year</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">375</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="city_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">7. City of birth</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">410</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="city">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">Tashkent</property>
+          </object>
+          <packing>
+            <property name="x">450</property>
+            <property name="y">435</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="card_number_text">
+            <property name="width_request">110</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">9. Card number</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">749</property>
+            <property name="y">109</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="card_number">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">xxxx xxxx xxxx xxxx</property>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">135</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="address_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">10. Address and Zip code</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="address">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">Tashkent city ,130100</property>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">195</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="email_text">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">11. E-mail</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">230</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkEntry" id="email">
+            <property name="width_request">200</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="placeholder_text" translatable="yes">username@gmail.com</property>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">255</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="fill_form_text1">
+            <property name="width_request">109</property>
+            <property name="height_request">25</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">7</property>
+            <property name="label" translatable="yes">Price: 300$</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 20"/>
+              <attribute name="scale" value="0.80000000000000004"/>
+              <attribute name="foreground" value="#34346565a4a4"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">953</property>
+            <property name="y">318</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkComboBox" id="visa_selector">
+            <property name="width_request">203</property>
+            <property name="height_request">34</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="model">liststore1</property>
+            <property name="has_entry">True</property>
+            <property name="entry_text_column">0</property>
+            <signal name="changed" handler="on_visa_selector_changed" swapped="no"/>
+            <child internal-child="entry">
+              <object class="GtkEntry" id="visa_selector_options">
+                <property name="can_focus">False</property>
+                <property name="text" translatable="yes">Samarqand</property>
+                <property name="placeholder_text" translatable="yes">Select any country</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">75</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="full_name_text1">
+            <property name="width_request">86</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">end</property>
+            <property name="label" translatable="yes">8. Region you want to visit</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">750</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="main_menu">
+    <property name="can_focus">False</property>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkFixed" id="main_menu_fixed_area">
+        <property name="width_request">1360</property>
+        <property name="height_request">700</property>
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkLabel" id="welcome_text">
+            <property name="width_request">1360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">7</property>
+            <property name="label" translatable="yes">Welcome to Uz Tourism Portal</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu Medium 20"/>
+              <attribute name="foreground" value="#757550507b7b"/>
+            </attributes>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="select_category_text">
+            <property name="width_request">1360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Here you can register for treveling any where of Uzbekistan!</property>
+            <attributes>
+              <attribute name="foreground" value="#bababdbdb6b6"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">57</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="sponsorts_text">
+            <property name="width_request">1360</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Organization</property>
+            <attributes>
+              <attribute name="foreground" value="#bababdbdb6b6"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">409</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="sponsor1">
+            <property name="width_request">100</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_bottom">15</property>
+            <property name="pixbuf">images/inha.jpg</property>
+          </object>
+          <packing>
+            <property name="x">513</property>
+            <property name="y">440</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="orientation">vertical</property>
+            <property name="spacing">15</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="pixbuf">images/category1.png</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="travel">
+                <property name="label" translatable="yes">Information</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <signal name="clicked" handler="on_travel_clicked" swapped="no"/>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">TRAVEL</property>
+                <attributes>
+                  <attribute name="font-desc" value="Ubuntu 12"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">620</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkListStore" id="visa_type">
+    <columns>
+      <!-- column-name gchararray1 -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0">Travel</col>
+      </row>
+      <row>
+        <col id="0">Business</col>
+      </row>
+      <row>
+        <col id="0">Student</col>
+      </row>
+    </data>
+  </object>
+</interface>
