@@ -37,7 +37,8 @@ $ ./my_app
 <br>
   <img src ="images/img1.png">
   
-   <br>### Main page - list of regions in Uzbekistan
+   <br>
+   > ### Main page - list of regions in Uzbekistan
 <br>
   <img src ="images/img2.png">
   <hr>### Chosen region - Tashkent
