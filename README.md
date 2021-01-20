@@ -8,7 +8,7 @@
 <p>
 <li> Server-side </li>
 <li> Client-side </li>
-  <img src ="../images/img1.png">
+  <img src =./images/img1.png">
 </p>
 
 
