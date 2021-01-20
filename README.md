@@ -7,16 +7,16 @@
 
   <b> Sockets </b> are formed by following features: 
   * Protocol (TCP, UDP, raw IP) 
-  * Local IP address </li>
-  <li> Local port </li>
-  <li> Remote IP address </li>
-  <li> Remote port </li> <br>
+  * Local IP address 
+  * Local port 
+  * Remote IP address 
+  * Remote port  <br>
 
-Protocol – it is set of rules used for communications purposes globally.
-Local IP address – it is the IP address of the local machine.
-Local port – it is local port number.
-Remote IP address – it is the IP address of the other machine on which local machine is connected through Socket.
-Remote port – it is the port number of the other machine.  
+ * Protocol – it is set of rules used for communications purposes globally.
+ * Local IP address – it is the IP address of the local machine.
+ * Local port – it is local port number.
+ * Remote IP address – it is the IP address of the other machine on which local machine is connected  through Socket.
+ * Remote port – it is the port number of the other machine.  
 
 <p> In this project server and client can be connected using different pcs in the same LAN. But I showed here in one pc with two terminals. </p>
 
