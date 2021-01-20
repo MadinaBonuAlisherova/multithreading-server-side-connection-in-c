@@ -23,8 +23,8 @@
 
 > `-` Server-side <br>
 >  `-` Client-side 
-  <hr>
-  > ## Connection of <em> server </em> and <em> client </em>
+  <hr> <br>
+> ### Connection of <em> server </em> and <em> client </em>
   <img src ="images/img1.png">
   <hr>
   <img src ="images/img2.png">
