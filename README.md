@@ -8,6 +8,7 @@
 <p>
 <li> Server-side </li>
 <li> Client-side </li>
+  <hr>
   <img src ="images/img1.png">
 </p>
 
