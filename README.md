@@ -21,8 +21,8 @@
 
 <p> In this project server and client can be connected using different pcs in the same LAN. But I showed here in one pc with two terminals. </p>
 
->  ``-`` Server-side <br>
->  ``-`` Client-side 
+> `-` Server-side <br>
+>  `-` Client-side 
   <hr>
   <img src ="images/img1.png">
 
