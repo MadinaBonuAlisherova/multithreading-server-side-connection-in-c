@@ -25,6 +25,10 @@
 >  `-` Client-side 
   <hr> 
  <br>
+ 
+ ```bash
+pip install foobar
+```
  ```
 $ cd ../lorem
 $ npm install
