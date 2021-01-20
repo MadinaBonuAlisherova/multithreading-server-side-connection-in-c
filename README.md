@@ -36,7 +36,7 @@ $ ./my_app
 > ### Connection of <em> server </em> and <em> client </em> 
 <br>
   <img src ="images/img1.png">
-  <hr>
+  
    <br>### Main page - list of regions in Uzbekistan
 <br>
   <img src ="images/img2.png">
