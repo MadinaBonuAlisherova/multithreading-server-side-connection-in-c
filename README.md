@@ -36,18 +36,23 @@ $ ./my_app
 > ### Connection of <em> server </em> and <em> client </em> 
 <br>
   <img src ="images/img1.png">
-  
-   <br>
-   > ### Main page - list of regions in Uzbekistan
+<hr> 
+<br>
+> ### <p>Main page - list of regions in Uzbekistan
 <br>
   <img src ="images/img2.png">
-  <hr>### Chosen region - Tashkent
+<hr>
+<br>
+> ### Chosen region - Tashkent
 <br>
   <img src ="images/img3.png">
-  <hr>### Filling the form to tavel
+  <hr>
+<br>
+> ### Filling the form to tavel
 <br>
   <img src ="images/img4.png">
-  <hr>### Successfull form submission, sent data into server and writing data into database
+  <hr>
+> ### Successfull form submission, sent data into server and writing data into database
 <br>
   <img src ="images/img5.png">
 
