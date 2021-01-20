@@ -12,7 +12,7 @@
   * Remote IP address 
   * Remote port  <br>
 
- Protocol – it is set of rules used for communications purposes globally.
+ ..* Protocol – it is set of rules used for communications purposes globally.
  Local IP address – it is the IP address of the local machine.
  Local port – it is local port number.
  Remote IP address – it is the IP address of the other machine on which local machine is connected  through Socket.
