@@ -31,7 +31,7 @@ sudo apt install libgtk-3-dev
 ```
  ```
 $ ./server
-$ ./my_app3
+$ ./my_app
 ```
 ### Connection of <em> server </em> and <em> client </em> 
 <br>
@@ -42,17 +42,17 @@ $ ./my_app3
 <br>
   <img src ="images/img2.png">
   <hr>
-   <br>
+   
 ### Chosen region - Tashkent
 <br>
   <img src ="images/img3.png">
   <hr>
-   <br>
+   
 ### Filling the form to tavel
 <br>
   <img src ="images/img4.png">
   <hr>
-   <br>
+   
 ### Successfull form submission, sent data into server and writing data into database
 <br>
   <img src ="images/img5.png">
