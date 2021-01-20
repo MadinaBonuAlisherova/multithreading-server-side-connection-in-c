@@ -46,7 +46,7 @@ $ ./my_app
 > ### Chosen region - Tashkent
 <br>
   <img src ="images/img3.png">
-  <hr>
+   <hr>
 <br>
 > ### Filling the form to tavel
 <br>
