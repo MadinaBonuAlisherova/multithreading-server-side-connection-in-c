@@ -5,12 +5,12 @@
 
 #### This project's aim is to display multithreading socket connection between <em>server</em> and <em>client</em>! 
 <p>
-  <b> Sockets</p> are formed by following features:
-•	Protocol (TCP, UDP, raw IP)
-•	Local IP address
-•	Local port
-•	Remote IP address
-•	Remote port
+  <b> Sockets </b> are formed by following features: 
+  <li> Protocol (TCP, UDP, raw IP) </li>
+  <li> Local IP address </li>
+  <li> Local port </li>
+  <li> Remote IP address </li>
+  <li> Remote port </li>
 
 Protocol – it is set of rules used for communications purposes globally.
 Local IP address – it is the IP address of the local machine.
