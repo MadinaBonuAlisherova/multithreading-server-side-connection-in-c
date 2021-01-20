@@ -12,16 +12,16 @@
   * Remote IP address 
   * Remote port  <br>
 
-<p> Protocol – it is set of rules used for communications purposes globally.
- Local IP address – it is the IP address of the local machine.
- Local port – it is local port number.
- Remote IP address – it is the IP address of the other machine on which local machine is connected  through Socket.
+<p> Protocol – it is set of rules used for communications purposes globally.<br>
+ Local IP address – it is the IP address of the local machine.<br>
+ Local port – it is local port number.<br>
+ Remote IP address – it is the IP address of the other machine on which local machine is connected  through Socket.<br>
  Remote port – it is the port number of the other machine.  
   </p>
 
 <p> In this project server and client can be connected using different pcs in the same LAN. But I showed here in one pc with two terminals. </p>
 
->  ``-`` Server-side 
+>  ``-`` Server-side <br>
 >  ``-`` Client-side 
   <hr>
   <img src ="images/img1.png">
