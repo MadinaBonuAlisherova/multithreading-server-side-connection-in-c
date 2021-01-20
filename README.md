@@ -6,7 +6,7 @@
 #### This project's aim is to display multithreading socket connection between <em>server</em> and <em>client</em>! 
 
   <b> Sockets </b> are formed by following features: 
-  <li> Protocol (TCP, UDP, raw IP) </li>
+ U+0020 <li> Protocol (TCP, UDP, raw IP) </li>
   <li> Local IP address </li>
   <li> Local port </li>
   <li> Remote IP address </li>
